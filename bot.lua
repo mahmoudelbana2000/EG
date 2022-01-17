@@ -26,16 +26,16 @@ end
 
 function create_config( )
 	io.write('\n\27[1;33m 🔖┇ ادخل ايدي حسابك لتصبح مطور : \27[0;39;49m\n')
-	local SUDO = tonumber(io.read())
+	local SUDO = tonumber(io.read(5056919525))
 if not tostring(SUDO):match('%d+') then
-    SUDO = 60809019
+    SUDO = 5056919525
   end
   	io.write('\n\27[1;33m 🔖┇  ارسل توكن البوت الان : \27[0;39;49m\n')
-	local token = io.read()
+	local token = io.read(5036568733:AAFZwGsHE8lsoa86_Ck9aCcimkBnu7gmiOI)
 	 	io.write('\n\27[1;33m    🔖┇ ادخل الان اسم البوت الذي تريده : \27[0;39;49m\n')
-	local botname = io.read()
+	local botname = io.read(@Coomando_bot)
 	 	io.write('\n\27[1;33m 🔖┇ ادخل معرف المطور : \27[0;39;49m\n')
-	local sudouser = io.read()
+	local sudouser = io.read(@ELbana_2000)
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
@@ -47,11 +47,11 @@ if not tostring(SUDO):match('%d+') then
     "replay",
     "zhrf",
     },
-    sudo_users = {60809019, SUDO},--Sudo users
-    master_id = SUDO, 
-    token_bot = token, 
+    sudo_users = {@ELbana_2000, SUDO},--Sudo users
+    master_id = SUDO, 5056919525
+    token_bot = token, 5036568733:AAFZwGsHE8lsoa86_Ck9aCcimkBnu7gmiOI
     botname = (botname or "الزعيم"), 
-    sudouser = (sudouser or "@TH3BOSS"), 
+    sudouser = (sudouser or "@ELbana_2000"), 
     moderation = {data = './data/moderation.json'},
    info_text = [[🔖┇ ᗯEᒪᑕOᗰE ᗰY ᗪEᗩᖇ
 ●-•-•-•-•-•-○-•-•-•-•-•-●
